@@ -1,0 +1,94 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
+
+
+.home {
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.name {
+    text-align: center;
+    justify-content: center;
+}
+.name h1 {
+    margin-top: 70px;
+    font-size: 70px;
+    position: relative;
+  display: inline-block; /* Ensure the hover effect only applies to the text */
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  background: linear-gradient(90deg, red, yellow, green, cyan, blue, purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.name h1:hover {
+    animation: rainbow-colors 1s infinite;
+  }
+  
+  @keyframes rainbow-colors {
+    0% {
+      color: red;
+    }
+    20% {
+      color: yellow;
+    }
+    40% {
+      color: green;
+    }
+    60% {
+      color: cyan;
+    }
+    80% {
+      color: blue;
+    }
+    100% {
+      color: purple;
+    }
+  }
+.name p {
+    font-size: 20px;
+}
+
+.right-sidebar {
+flex:1;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+.right-sidebar a{
+    color: #f0e68c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.right-sidebar div{
+    margin: 0 15px;
+}
+
+.right-sidebar a:hover{
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+.footer{
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+
+}

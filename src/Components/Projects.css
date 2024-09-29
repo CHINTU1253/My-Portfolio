@@ -1,0 +1,15 @@
+.Projects {
+    background-color: black;
+    color: gold;
+    overflow: auto;
+    padding: 20px;
+    min-height: 100vh;
+
+
+}
+.Projects h1{
+    text-align: center;
+    color:gold;
+
+}
+
